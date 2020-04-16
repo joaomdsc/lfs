@@ -1,27 +1,19 @@
 Overview
 ========
 
-|github| Development of this software is hosted at `github.com/joaomdsc/pkg`_.
+|github| Development of this software is hosted at `github.com/joaomdsc/lfs`_.
 
-|rtd| Documentation for this software can be found on `pkg.readthedocs.io`_.
+|rtd| Documentation for this software can be found on `lfs.readthedocs.io`_.
 
 What's in here ?
 ----------------
 
-This repository holds python scripts dealing with the common topic of software
-packages (source or binary) and their use on building applications or entire
-systems such as Linux.
+This repository holds python scripts dealing with **LFS** (as in `Linux From
+Scratch`_), which automates the building of an entire linux system from source
+code, as described in `the LFS book`_.
 
-Most of it is work-in-progress on debian or yum-based packaging, aiming towards
-a single, common API to support the usual operations, that has not yet reached
-the point where it could be useful to anyone. 
-
-One sub-project, however, has achieved actual usability, and that's the **lfs**
-(as in `Linux From Scratch`_) sub-project, which automates the building of an
-entire linux system from source code, as described in `the LFS book`_.
-
-pkg_lfs
--------
+lfs
+---
 
 Linux From Scratch is a community-maintained online book with instructions for
 downloading, configuring, and compiling all the necessary software to obtain a
@@ -30,17 +22,17 @@ the collective knowledge and the efforts of all the LFS volunteers who study
 every individual piece of the linux machinery to determine a set of compatible
 parameters to make it all work together.
 
-This project, referred to as **pkg_lfs** in this documentation, aims to relieve
+This project, referred to as **lfs_py** in this documentation, aims to relieve
 you of the manual repetitive task of running each piece of shell script one
 after the other. It's a set of python scripts that parse the LFS book and
 generate shell scripts that are then used to automate the building
-process. Using pkg_lfs, you basically just set the values of a few variables,
+process. Using lfs_py, you basically just set the values of a few variables,
 launch a script, and wait a few hours: when the script is done, you can boot
 your new Linux system.
 
-Hopefully pkg_lfs will reduce the time and effort required to unlock the huge
+Hopefully lfs_py will reduce the time and effort required to unlock the huge
 value of the LFS book and to get that customized Linux system up and
-running. For all the details on how to use the software, see the pkg_lfs
+running. For all the details on how to use the software, see the lfs_py
 documentation in :ref:`automating-lfs`.
 
 .. sectionauthor:: Joao Moreira <joao.moreiradsc@gmail.com>
@@ -48,7 +40,7 @@ documentation in :ref:`automating-lfs`.
 .. |github| image:: /img/GitHub-Mark-32px.png
 .. |rtd| image:: /img/rtd-logo-dark-32px.png
 
-.. _github.com/joaomdsc/pkg: https://github.com/joaomdsc/pkg
-.. _pkg.readthedocs.io: https://pkg.readthedocs.io
+.. _github.com/joaomdsc/lfs: https://github.com/joaomdsc/lfs
+.. _lfs.readthedocs.io: https://lfs.readthedocs.io
 .. _Linux From Scratch: http://www.linuxfromscratch.org/
 .. _the LFS book: http://www.linuxfromscratch.org/lfs/view/stable-systemd/
