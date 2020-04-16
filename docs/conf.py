@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'pkg'
+project = 'lfs'
 copyright = '2020, João Moreira de Sá Coutinho'
 author = 'João Moreira de Sá Coutinho'
 
